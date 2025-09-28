@@ -172,4 +172,99 @@ body{
 
 }
 
+.login{
+
+    height: 600px;
+    width: 100%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+
+}
+
+.login .container{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+
+    background-color: #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.card-cadastro{
+
+    height: 80%;
+    width: 50%;
+
+}
+
+.card-login{
+
+    height: 40%;
+    width: 50%;
+
+}
+
+.card h2{
+
+    color: #ff3658;
+    margin: 0;
+
+}
+
+.formulario{
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px ;
+
+}
+
+.formulario .campo span{
+
+    color: #ff3658;
+    font-weight: bolder;
+
+}
+
+.formulario .campo input{
+
+    width: 550px;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #9898ff;
+    text-align: center;
+    
+
+}
+
+.formulario button{
+
+    background-color: #ff3658;
+    color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    width: 20%;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+
+}
+
 /*Aqui termina a estilização do index.html*/
